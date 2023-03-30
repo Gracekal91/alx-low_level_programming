@@ -1,3 +1,10 @@
+/*
+ * File: 3-strcmp.c
+ * Author: Grace Kalombo
+ */
+
+#include <stdio.h>
+#include <string.h>
 
 /**
  * _strcmp - Compares pointers to two strings.
