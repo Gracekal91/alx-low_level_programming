@@ -1,20 +1,13 @@
-#include <stdio.h>
-#include <string.h>
-
-char *_strcat(char *dest, const char *src);
-
-int main(void)
+char *strcat(char *dest, const char *src)
 {
-    char dest[20] = "Hello";
-    const char *src = " world!";
+	int index = 0, dest_len = 0;
 
-    printf("Before concatenation: %s\n", dest);
+	while (dest[index++])
+		dest_len++;
 
-    _strcat(dest, src);
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
 
-    printf("After concatenation: %s\n", dest);
-
-    return 0;
+	return (dest);
 }
-
 
