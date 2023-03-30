@@ -1,9 +1,9 @@
 /*
  * File: 101-print_number.c
- * Auth: Brennan D Baraban
+ * Author: Grace Kalombo
  */
 
-#include "holberton.h"
+
 
 /**
  * print_number - Prints an integer.
