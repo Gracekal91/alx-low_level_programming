@@ -1,8 +1,11 @@
+/*
+ * File: 1-strncat.c
+ * Author: Kalombo Grace
+ */
+
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-
 
 char *_strncat(char *dest, char *src, int n)
 {
